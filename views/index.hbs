@@ -1,0 +1,11 @@
+<div class="blogs content">
+    <a href="/">
+        <h1>Blog Ninja</h1>
+    </a>
+    <h2>All Blogs</h2>
+    {{# each blogs as |val key|}}
+    <h3 class="title">{{ this.title }}</h3>
+    <p class="snippet">{{ this.snippet }}</p>
+    {{/each}}
+
+</div>
